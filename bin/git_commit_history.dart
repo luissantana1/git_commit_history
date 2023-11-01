@@ -1,7 +1,5 @@
-import 'dart:io';
-import 'package:http/http.dart' as http;
-import 'dart:convert';
+import 'package:git_commit_history/services.dart';
 
-void main() {
-
+void main() async {
+  startServer();
 }
