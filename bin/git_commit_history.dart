@@ -1,5 +1,7 @@
-import 'package:git_commit_history/git_commit_history.dart' as git_commit_history;
+import 'dart:io';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
 
-void main(List<String> arguments) {
-  print('Hello world: ${git_commit_history.calculate()}!');
+void main() {
+
 }
